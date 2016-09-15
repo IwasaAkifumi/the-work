@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 6ee025a7109596d47bfd722072e70d24
+timeCreated: 1443108930
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_0"
+    21300002: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_1"
+    21300004: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_2"
+    21300006: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_3"
+    21300008: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_4"
+    21300010: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_5"
+    21300012: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_6"
+    21300014: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_7"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_1"
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_2"
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_4"
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_5"
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u4E00\u679A\u7D75\u5909\u8EAB\u30A8\u30D5\u30A7\u30AF\u30C8\u4E38(1080_1080)_7"
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

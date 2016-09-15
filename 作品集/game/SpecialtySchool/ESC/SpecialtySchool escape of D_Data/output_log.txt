@@ -1,0 +1,60 @@
+Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.171 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\暁歩海\Desktop\作品集\SpecialtySchool\ESC\SpecialtySchool escape of D_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 10.224324 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 885.
+Total: 0.927151 ms (FindLiveObjects: 0.024376 ms CreateObjectMapping: 0.010691 ms MarkObjects: 0.199713 ms  DeleteObjects: 0.342977 ms)
+
+Create Singleton Instance.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+フェードアウト完了
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 4.095631 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 6.479796 ms (FindLiveObjects: 0.034212 ms CreateObjectMapping: 0.036350 ms MarkObjects: 0.523874 ms  DeleteObjects: 4.617795 ms)
+
+UnloadTime: 1.041334 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 212.
+Total: 1.827788 ms (FindLiveObjects: 0.026514 ms CreateObjectMapping: 0.027369 ms MarkObjects: 0.520453 ms  DeleteObjects: 0.050890 ms)
+
+UnloadTime: 0.915177 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 212.
+Total: 1.800418 ms (FindLiveObjects: 0.028225 ms CreateObjectMapping: 0.026942 ms MarkObjects: 0.497360 ms  DeleteObjects: 0.009836 ms)
+
+UnloadTime: 0.844186 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 916.
+Total: 1.091370 ms (FindLiveObjects: 0.024376 ms CreateObjectMapping: 0.011974 ms MarkObjects: 0.300212 ms  DeleteObjects: 0.420810 ms)
+

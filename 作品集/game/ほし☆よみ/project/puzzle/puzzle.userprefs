@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Gauge.cs">
+    <Files>
+      <File FileName="Assets\Script\hosiyomi\ballScript.cs" Line="134" Column="37" />
+      <File FileName="Assets\Script\hosiyomi\tyu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\TimeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Gauge.cs" Line="366" Column="39" />
+      <File FileName="Assets\Script\CharacterSet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\EndRoll.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\GameSystem.cs" Line="329" Column="10" />
+      <File FileName="Assets\Script\hosiyomi\EnemyCount.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\TweenManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\P_Gauge.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

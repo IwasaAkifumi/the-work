@@ -1,0 +1,25 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 9.18.13.2765]
+    Renderer: Intel(R) HD Graphics 4600
+    Vendor:   Intel
+    VRAM:     1972 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\暁歩海\Desktop\New Unity Project 9\a2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\暁歩海\Desktop\New Unity Project 9\a2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\暁歩海\Desktop\New Unity Project 9\a2_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\暁歩海\Desktop\New Unity Project 9\a2_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.166 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+UnloadTime: 0.942545 ms
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 416.
+Total: 2.331988 ms (FindLiveObjects: 0.059871 ms CreateObjectMapping: 0.032073 ms MarkObjects: 0.313469 ms  DeleteObjects: 0.090662 ms)
+
+Platform assembly: C:\Users\暁歩海\Desktop\New Unity Project 9\a2_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\暁歩海\Desktop\New Unity Project 9\a2_Data\Managed\UnityScript.Lang.dll (this message is harmless)

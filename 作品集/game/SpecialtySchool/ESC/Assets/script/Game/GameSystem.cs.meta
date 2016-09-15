@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 2afa71e788963214f9d6db90d40b1a00
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mainCamera: {instanceID: 0}
+  - eventsystem: {instanceID: 0}
+  - selectedGameObject: {instanceID: 0}
+  - item_key: {instanceID: 0}
+  - item_key2: {instanceID: 0}
+  - item_key3: {instanceID: 0}
+  - item_key4: {instanceID: 0}
+  - item_key5: {instanceID: 0}
+  - kinco: {instanceID: 0}
+  - itemBtn_key: {instanceID: 0}
+  - itemBtn_key2: {instanceID: 0}
+  - itemBtn_key3: {instanceID: 0}
+  - itemBtn_key4: {instanceID: 0}
+  - itemBtn_key5: {instanceID: 0}
+  - leftBtn: {instanceID: 0}
+  - rightBtn: {instanceID: 0}
+  - belowBtn: {instanceID: 0}
+  - box: {instanceID: 0}
+  - message: {instanceID: 0}
+  - image: {fileID: 2800000, guid: c266b3f08df7a5b438fdbb635b2c36a5, type: 3}
+  - image2: {fileID: 2800000, guid: e9001698a1e6e8b42868fbc54e20ef48, type: 3}
+  - image3: {fileID: 2800000, guid: f26515b66ac045540980be5662d77cf1, type: 3}
+  - image4: {fileID: 2800000, guid: 69b8c19709326044780677e5dd07450f, type: 3}
+  - image5: {fileID: 2800000, guid: 6091990fc26a9fd47ab4591cfa137332, type: 3}
+  - image6: {fileID: 2800000, guid: b10fedbdadbdfa049976b8f95f4cb97f, type: 3}
+  - image7: {fileID: 2800000, guid: 4cd41b48673e43a4b91ccb9ec898f36a, type: 3}
+  - image8: {fileID: 2800000, guid: 1683a274948b11541b2c3d92f54dce20, type: 3}
+  - image9: {fileID: 2800000, guid: 5663a175cc5aa3b42a3436b0f785ff89, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

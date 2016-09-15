@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{0CD93C33-ABA0-76C0-8801-368DE993EDAD}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ToyWorldNew Folder\Scripts\gifAnim.cs" />
+     <Compile Include="Assets\syu-\Scripts\Box.cs" />
+     <Compile Include="Assets\syu-\Scripts\Chat.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Enemy\Enemy2.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Enemy\EnemyAttack.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Enemy\EnemyMove.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Enemy\EnemyMove_useDistance.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Enemy\EnemySpawn.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Enemy\EnemySpawn3.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\Bom.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\Bullet2.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\CameraCtrl.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\Player.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\Player2.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\PlayerLife.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\Shot.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\TouchController.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\Weapon.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Player\dan.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Status\Status.cs" />
+     <Compile Include="Assets\syu-\Scripts\Game\Ui\Ui.cs" />
+     <Compile Include="Assets\syu-\Scripts\Menu\Title.cs" />
+     <Compile Include="Assets\syu-\Scripts\NetworkViewMgr.cs" />
+     <Compile Include="Assets\syu-\Scripts\Player_SyncPosition.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Gamerule\GameRule.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Gamerule\GameRule1.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Gamerule\GameRule2.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Gamerule\GameRule3.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Manager\FadeManager.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Manager\KiiCloudManager.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Manager\Sound.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Score\Score.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Score\ScoreManager.cs" />
+     <Compile Include="Assets\syu-\Scripts\System\Score\ScoreSystem.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\Ball.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\Bar.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\Block.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\Game.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\Image.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\MapArray.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\MapAxis.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\MapCreate.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\MapSize.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\MouseDrag.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\SightCtrl.cs" />
+     <Compile Include="Assets\syu-\Scripts\a\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\FirstPersonCharacter\Prefabs\DisableNetworkUnlocalplayerBehaviour.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\syu-\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\syu-\aa\Script\CameraControl.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Follow.cs" />
+     <Compile Include="Assets\syu-\aa\Script\NetworkManager.cs" />
+     <Compile Include="Assets\syu-\aa\Script\NewBehaviourScript.cs" />
+     <Compile Include="Assets\syu-\aa\Script\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Pig.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\Bullet.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\GameStarter.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\Gun.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\Referee.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\ResuitScreen.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\Scorekeeper.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\TargetGenerator.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\Timerkeeper.cs" />
+     <Compile Include="Assets\syu-\aa\Script\Scripts\TitleScreen.cs" />
+     <Compile Include="Assets\syu-\aa\Script\with.cs" />
+     <Compile Include="Assets\syu-\aa\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\syu-\tst\NetworkManager3.cs" />
+     <Compile Include="Assets\syu-\tst\player3.cs" />
+     <None Include="Assets\syu-\aa\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\syu-\aa\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\syu-\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\syu-\aa\Plugins\Android\res\values\kii-push-config.xml" />
+     <None Include="Assets\syu-\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\syu-\aa\Plugins\Changelog.txt" />
+     <None Include="Assets\syu-\aa\Plugins\Android\res\layout\kii_server_side_auth_dialog.xml" />
+     <None Include="Assets\syu-\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\syu-\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\syu-\aa\Plugins\Readme.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonOrg">
+ <HintPath>C:/Users/暁歩海/Documents/New Unity Project 12/Assets/syu-/aa/Plugins/JsonOrg.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudStorageSDK">
+ <HintPath>C:/Users/暁歩海/Documents/New Unity Project 12/Assets/syu-/aa/Plugins/KiiCloudStorageSDK.dll</HintPath>
+ </Reference>
+ <Reference Include="KiiCloudUnitySDK">
+ <HintPath>C:/Users/暁歩海/Documents/New Unity Project 12/Assets/syu-/aa/Plugins/KiiCloudUnitySDK.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

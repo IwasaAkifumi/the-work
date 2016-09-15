@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9A95D91A-15CF-6C26-D8F3-8EA4C6F7A1AE}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Controller.js" />
+     <Compile Include="Assets\GameController1.js" />
+     <Compile Include="Assets\script\Anim.js" />
+     <Compile Include="Assets\script\Blast.js" />
+     <Compile Include="Assets\script\Bullet.js" />
+     <Compile Include="Assets\script\Enemy Ba.js" />
+     <Compile Include="Assets\script\Enemy\EnemyBullet.js" />
+     <Compile Include="Assets\script\Enemy\EnemyBullet2.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController4-2.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController4.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController5-2.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController5-3.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController5.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController6-2.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController6-3.js" />
+     <Compile Include="Assets\script\Enemy\EnemyController6.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHP.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHP4.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHP5.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHP6.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHPColor.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHPColor4.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHPColor5.js" />
+     <Compile Include="Assets\script\Enemy\EnemyHP\EnemyHPColor6.js" />
+     <Compile Include="Assets\script\Enemy\EnemyMove.js" />
+     <Compile Include="Assets\script\Enemy\Enemys1.js" />
+     <Compile Include="Assets\script\Enemy\EnemysLook.js" />
+     <Compile Include="Assets\script\Enemy\EnemysRote.js" />
+     <Compile Include="Assets\script\Enemy\EnemysTracking.js" />
+     <Compile Include="Assets\script\Enemy\EnemysTracking2.js" />
+     <Compile Include="Assets\script\Enemy\VS\EnemyBulletVS.js" />
+     <Compile Include="Assets\script\Enemy\VS\EnemyMove2.js" />
+     <Compile Include="Assets\script\Enemy\VS\EnemyMove2_2.js" />
+     <Compile Include="Assets\script\Enemy\VS\Enemys.js" />
+     <Compile Include="Assets\script\Enemy\VS\VSEnemyController.js" />
+     <Compile Include="Assets\script\Enemy\VS\VSEnemyController2.js" />
+     <Compile Include="Assets\script\Enemy\VS\VSEnemyHP.js" />
+     <Compile Include="Assets\script\Enemy\VS\VSEnemyHP2.js" />
+     <Compile Include="Assets\script\Enemy\VS\VSEnemyHPColor.js" />
+     <Compile Include="Assets\script\Enemy\VS\VSEnemyHPColor2.js" />
+     <Compile Include="Assets\script\Fadein.js" />
+     <Compile Include="Assets\script\GameController.js" />
+     <Compile Include="Assets\script\HP.js" />
+     <Compile Include="Assets\script\HPColor.js" />
+     <Compile Include="Assets\script\HPColor_6.js" />
+     <Compile Include="Assets\script\Item.js" />
+     <Compile Include="Assets\script\Menu.js" />
+     <Compile Include="Assets\script\PAHP.js" />
+     <Compile Include="Assets\script\PlayerController.js" />
+     <Compile Include="Assets\script\PlayerController1.js" />
+     <Compile Include="Assets\script\PlayerController2.js" />
+     <Compile Include="Assets\script\PlayerControllerSt6.js" />
+     <Compile Include="Assets\script\StageBack.js" />
+     <Compile Include="Assets\script\Stop1.js" />
+     <Compile Include="Assets\script\Title.js" />
+     <Compile Include="Assets\script\stop2.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{76978A29-9234-1F1B-0966-A9BDB0B77803}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\SnowMan\Scene\WaiiSaku.cs" />
+     <Compile Include="Assets\SnowMan\Scene\noScript\Ctrl.cs" />
+     <Compile Include="Assets\SnowMan\Scene\noScript\Key.cs" />
+     <Compile Include="Assets\SnowMan\Scene\noScript\MoveFloor.cs" />
+     <Compile Include="Assets\SnowMan\Scene\noScript\ObjAnimation.cs" />
+     <Compile Include="Assets\SnowMan\Script\DontShowScreenReset.cs" />
+     <Compile Include="Assets\SnowMan\Script\EnemySize.cs" />
+     <Compile Include="Assets\SnowMan\Script\ExampleClass.cs" />
+     <Compile Include="Assets\SnowMan\Script\Ground.cs" />
+     <Compile Include="Assets\SnowMan\Script\Icon.cs" />
+     <Compile Include="Assets\SnowMan\Script\Item.cs" />
+     <Compile Include="Assets\SnowMan\Script\Player.cs" />
+     <Compile Include="Assets\SnowMan\Script\Stage.cs" />
+     <Compile Include="Assets\SnowMan\Script\TitleButton.cs" />
+     <Compile Include="Assets\SnowMan\Script\WallEnemy.cs" />
+     <Compile Include="Assets\SnowMan\Script\ballRun.cs" />
+     <Compile Include="Assets\SnowMan\Script\camera2.cs" />
+     <Compile Include="Assets\SnowMan\Script\clear.cs" />
+     <Compile Include="Assets\SnowMan\Script\goal.cs" />
+     <Compile Include="Assets\SnowMan\Script\key.cs" />
+     <Compile Include="Assets\andou\Bossblouse.cs" />
+     <Compile Include="Assets\andou\Bossbody.cs" />
+     <Compile Include="Assets\andou\Bosscami.cs" />
+     <Compile Include="Assets\andou\Bosshair.cs" />
+     <Compile Include="Assets\andou\Bosshead.cs" />
+     <Compile Include="Assets\andou\Bossleftarm.cs" />
+     <Compile Include="Assets\andou\Bossleg.cs" />
+     <Compile Include="Assets\andou\Bossrightarm.cs" />
+     <Compile Include="Assets\andou\Bossshoes.cs" />
+     <Compile Include="Assets\andou\Bossskirt.cs" />
+     <Compile Include="Assets\andou\Bossunder.cs" />
+     <Compile Include="Assets\andou\Volume.cs" />
+     <Compile Include="Assets\andou\boss\Script\BossHP.cs" />
+     <Compile Include="Assets\andou\boss\Script\Dengeki.cs" />
+     <Compile Include="Assets\andou\boss\Script\Fire.cs" />
+     <Compile Include="Assets\andou\boss\Script\HP.cs" />
+     <Compile Include="Assets\andou\boss\Script\PingPongMove.cs" />
+     <Compile Include="Assets\andou\boss\Script\ScaleChange.cs" />
+     <Compile Include="Assets\andou\boss\Script\false01.cs" />
+     <Compile Include="Assets\andou\boss\Script\gamesystem2.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou01.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou02.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou03.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou04.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou05.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou06.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou07.cs" />
+     <Compile Include="Assets\andou\boss\Script\idou08.cs" />
+     <Compile Include="Assets\andou\boss\Script\player01.cs" />
+     <Compile Include="Assets\andou\boss\Script\player02.cs" />
+     <Compile Include="Assets\andou\boss\Script\player03.cs" />
+     <Compile Include="Assets\andou\boss\SlideIN\BossIN.cs" />
+     <Compile Include="Assets\andou\boss\SlideIN\SlideIN_A.cs" />
+     <Compile Include="Assets\andou\boss\SlideIN\SlideIN_M.cs" />
+     <Compile Include="Assets\andou\boss\SlideIN\SlideIN_N.cs" />
+     <Compile Include="Assets\andou\boss\SlideIN\SlideIN_Y.cs" />
+     <Compile Include="Assets\imamura\Script\BGM\BGMPlayer.cs" />
+     <Compile Include="Assets\imamura\Script\BGM\Singleton.cs" />
+     <Compile Include="Assets\imamura\Script\ChengBack.cs" />
+     <Compile Include="Assets\imamura\Script\Countdown.cs" />
+     <Compile Include="Assets\imamura\Script\Damage.cs" />
+     <Compile Include="Assets\imamura\Script\Del\ArmOff.cs" />
+     <Compile Include="Assets\imamura\Script\Del\AudioManager.cs" />
+     <Compile Include="Assets\imamura\Script\Del\AudioPlayer.cs" />
+     <Compile Include="Assets\imamura\Script\Del\BodyOff.cs" />
+     <Compile Include="Assets\imamura\Script\Del\CharaBack.cs" />
+     <Compile Include="Assets\imamura\Script\Del\HeadOff.cs" />
+     <Compile Include="Assets\imamura\Script\Del\LegOff.cs" />
+     <Compile Include="Assets\imamura\Script\Destroy.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Ground\Enemy_Ground.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Move\Enemy_Move.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Move\Enemy_Move1.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Move\Enemy_Move10.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Move\Enemy_Move2.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Move\Enemy_Move3.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Move\Enemy_Move4.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Move\Enemy_Move5.cs" />
+     <Compile Include="Assets\imamura\Script\Enemy\Enemy_Stop\Enemy_Stop.cs" />
+     <Compile Include="Assets\imamura\Script\FadeManager.cs" />
+     <Compile Include="Assets\imamura\Script\GameButton.cs" />
+     <Compile Include="Assets\imamura\Script\GameOver.cs" />
+     <Compile Include="Assets\imamura\Script\GameSystem.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackBlouse.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackBody.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackCami.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackHadaka.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackHead.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackLeftArm.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackLeg.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackRightArm.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackShoes.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackSkirt.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Back\CharaBackUnder.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\Chara.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunBlouse.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunBodyScript.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunCami.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunHair.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunHeadScript.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunLeftArmScript.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunLegScript.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunRightArmScript.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunScript.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunShoes.cs" />
+     <Compile Include="Assets\imamura\Script\Player\Run\RunSkirt.cs" />
+     <Compile Include="Assets\imamura\Script\Posison.cs" />
+     <Compile Include="Assets\imamura\Script\Score.cs" />
+     <Compile Include="Assets\imamura\Script\ScrolButton2.cs" />
+     <Compile Include="Assets\imamura\Script\ScrollButton.cs" />
+     <Compile Include="Assets\imamura\Script\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\imamura\Script\Skill.cs" />
+     <Compile Include="Assets\imamura\Script\Sounds.cs" />
+     <Compile Include="Assets\imamura\Script\Stage\Assert2.cs" />
+     <Compile Include="Assets\imamura\Script\Stage\Run.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
